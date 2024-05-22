@@ -1,9 +1,10 @@
-﻿using Catalogo.Models;
+﻿using Catalogo.Modelos.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Catalogo.Controllers
+namespace Catalogo.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
