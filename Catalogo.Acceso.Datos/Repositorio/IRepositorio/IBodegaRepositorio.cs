@@ -10,5 +10,6 @@ namespace Catalogo.AccesoDatos.Repositorio.IRepositorio
     public interface IBodegaRepositorio:IRepositorio<Bodega>
     {
         void Actualizar(Bodega bodega);
+       
     }
 }
